@@ -22,7 +22,7 @@ seeing results:
 
 * Ensure [third party integrations][alfred-advanced-preferences] are enabled.
 * If you installed from the **web** check the file exist:
-  * `~/Library/Application Support/1Password 4/3rd Party Integration
+  * `~/Library/Application Support/1Password 4/3rd Party Integration/bookmarks-default.json`
 * If you installed via **Mac App Store** check the file exists:
   * `~/Library/Containers/2BUA8C4S2C.com.agilebits.onepassword-osx-helper/Data/Library/3rd Party Integration/bookmarks-default.json`
 
