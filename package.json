@@ -1,0 +1,25 @@
+{
+  "name": "zazu-mac-1password",
+  "version": "0.0.1",
+  "description": "Make your 1password bookmarks visible in Zazu!",
+  "main": "1password.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tinytacoteam/zazu-mac-1password.git"
+  },
+  "keywords": [
+    "1password",
+    "mac",
+    "zazu"
+  ],
+  "author": "Blaine Schmeisser",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tinytacoteam/zazu-mac-1password/issues"
+  },
+  "homepage": "https://github.com/tinytacoteam/zazu-mac-1password#readme",
+  "dependencies": {
+    "fuzzyfind": "^1.0.0",
+    "url": "^0.11.0"
+  }
+}
