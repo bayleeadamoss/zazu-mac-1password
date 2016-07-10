@@ -8,7 +8,7 @@ const home = os.homedir()
 const webFile = path.join(home, 'Library/Application Support/1Password 4/3rd Party Integration/bookmarks-default.json')
 const macStoreFile = path.join(home, 'Library/Containers/2BUA8C4S2C.com.agilebits.onepassword-osx-helper/Data/Library/3rd Party Integration/bookmarks-default.json')
 
-const query = 'good'
+const query = process.argv.slice(-1)[0]
 
 const searchBookmarks = (file, query) => {
   fs.readFile(file, (_, data) => {
