@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/tinytacoteam/zazu-mac-1password#readme",
   "dependencies": {
-    "fuzzyfind": "^1.0.0",
+    "fuzzyfind": "^1.2.0",
     "url": "^0.11.0"
   }
 }
