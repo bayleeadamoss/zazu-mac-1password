@@ -14,7 +14,7 @@ module.exports = {
         respondsTo: (input) => {
           return true
         },
-        script: 'node 1password.js "{query}"',
+        script: 'ruby 1password.rb "{query}"',
         connections: [2],
       },
     ],
