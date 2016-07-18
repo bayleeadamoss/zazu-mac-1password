@@ -12,7 +12,7 @@ module.exports = {
         id: 1,
         type: 'RootScript',
         respondsTo: (input) => {
-          return true
+          return input.length >= 2
         },
         script: 'ruby 1password.rb "{query}"',
         connections: [2],
