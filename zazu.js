@@ -6,13 +6,14 @@ module.exports = {
   icon: 'icon.png',
   homepage: 'https://github.com/tinytacoteam/zazu-mac-1password',
   git: 'git@github.com:tinytacoteam/zazu-mac-1password.git',
+  install: 'pip install fuzzyfinder',
   blocks: {
     input: [
       {
         id: 1,
         type: 'RootScript',
         respondsTo: (input) => {
-          return input.length >= 2
+          return input.length >= 1
         },
         script: 'ruby 1password.rb "{query}"',
         connections: [2],
