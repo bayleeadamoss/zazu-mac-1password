@@ -9,18 +9,18 @@ module.exports = {
   blocks: {
     input: [
       {
-        id: 1,
-        type: 'RootScript',
-        respondsTo: (input) => {
-          return true
-        },
-        script: 'node 1password.js "{query}"',
-        connections: [2],
+        id: 'Search',
+        type: 'PrefixScript',
+        prefix: '1p',
+        space: true,
+        args: 'Required',
+        script: '1password.js',
+        connections: ['Open'],
       },
     ],
     output: [
       {
-        id: 2,
+        id: 'Open',
         type: 'OpenInBrowser',
         url: '{value}',
       },
