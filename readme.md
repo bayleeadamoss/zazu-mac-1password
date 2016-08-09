@@ -2,6 +2,14 @@
 
 Make your 1password bookmarks visible in Zazu!
 
+## Usage
+
+Open Zazu and type the prefix `1p` with what you wish to search for:
+
+~~~
+1p goodreads
+~~~
+
 ## Installing
 
 Add `tinytacoteam/zazu-mac-1password` inside of `plugins` block of your
