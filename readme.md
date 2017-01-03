@@ -13,13 +13,13 @@ Open Zazu and type the prefix `1p` with what you wish to search for:
 ## Installing
 
 Add `tinytacoteam/zazu-mac-1password` inside of `plugins` block of your
-`~/.zazurc.js` file.
+`~/.zazurc.json` file.
 
-~~~ javascript
-module.exports = {
-  'plugins': [
-    'tinytacoteam/zazu-mac-1password',
-  ],
+~~~ json
+{
+  "plugins": [
+    "tinytacoteam/zazu-mac-1password"
+  ]
 }
 ~~~
 
